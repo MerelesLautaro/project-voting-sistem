@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/avaliableContests', function () {
+    return view('avaliableContests');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');

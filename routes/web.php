@@ -23,6 +23,10 @@ Route::get('/avaliableContests', function () {
     return view('avaliableContests');
 });
 
+Route::get('/loginAdmin', function () {
+    return view('loginAdmin');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
